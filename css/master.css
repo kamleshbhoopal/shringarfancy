@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  /*background: radial-gradient(maroon,black);*/
+  /*background-image: url("../../images/photo40.jpeg");*/
+}
+
+/*navbar general */
+
+.navbar {
+  overflow: hidden;
+  background-color: #800020;
+  position: static;
+  top: 10;
+  width: 100;
+}
+
+
+/*inside navigation bar*/
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:link, a:visited {
+  background-color: #800020;
+  color: white;
+  display: inline-block;
+}
+
+a:hover {
+  background-color: white;
+  color: #800020
+}
+
+a.active {
+  background-color: #eee;
+  color: #800020
+}
+
+/*shringar on navbar*/
+.navbar abbr {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-shadow: 3px 3px black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/*body*/
+.main {
+  padding: 16px;
+  margin-top: 10px;
+  height: 15px;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  padding: 2%;
+}
+
+.container>.segment {
+  border: rgb(128, 0, 0) solid 1px;
+  background: rgba(128, 0, 0, 0.1);
+  width: 90%;
+  margin: auto;
+  padding: 1% 1% 2% 2%;
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+  text-shadow: 1px 1px 1px 1px rgb(128, 0, 0);
+  overflow-x: auto;
+}
+
+.segment>.coming-soon {
+  padding: 16% 18%;
+}
+
+.segment>.contact {
+  color: green;
+  font-style: italic;
+  font-size: 14px;
+}
+
+/*footer*/
+
+.footer {
+  background-color: #111;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 0;
+}
